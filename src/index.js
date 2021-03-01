@@ -242,6 +242,7 @@ class Game extends React.Component {
     return (
       <div className="game">
         <div className="game-board">
+          <div>Hello Amplify!</div>
           <Board squares={this.state.current.squares} hilightSquares={hilightSquares} turn={this.state.current.turn} onClick={(x, y) => this.handleClick(x, y)}/>
         </div>
         <div className="game-info">
